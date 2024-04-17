@@ -1,0 +1,123 @@
+body {
+ font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Header Stuff Here */
+header {
+    background-color: #FF45EA; 
+    padding: 1rem 2vw;
+}
+header h1 {
+   margin: 0;
+       color: #5B4CFF;
+}
+header p {
+   margin: 0;
+       color: #5B4CFF;
+    letter-spacing: .5px;
+}
+
+/* nav stuff goes here */
+nav {
+    background-color: #964fff;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #FF6390;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #FF6390;
+        color: #964fff;
+}
+nav a:hover {
+    color: white;
+}
+
+
+/* stuff for the main */
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #C72AFF;
+}
+
+main h2 {
+    color: #FF45EA;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #964fff;
+    margin: 0 0 .3rem 0;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #FF6390;
+    color: #964fff;
+}
+
+main dl dt {
+    color: #964FFF;
+    font-weight: 700;
+}
+main dl dd {
+    color: #5B4CFF;
+    font-size: .9rem;
+}
+
+main ul {
+    list-style-type: circle;
+    color: #964fff;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+      font-size: .9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #FF6390;
+    color: #964fff;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #5B4CFF;
+    border-radius: .5rem;
+}
+
+main a {
+    color: #5B4CFF;
+}
+main a:hover {
+    color: #C72AFF;
+}
+
+
+/* Footer Stuff Here */
+footer {
+    background-color: #FF45EA; 
+    text-align: center;
+    color: #5B4CFF;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #5B4CFF;
+}
+ 
