@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>FestiDesti: Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="festi.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta name="description" content="Your Source of Music Festival News"> 
+        <meta name="author" content="Gess Seaman">
+        
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <img src="images/sparkle.png" alt="site logo" width="68" height="74">
+            <div>
+            <h1>FestiDesti</h1>
+            <p>Stay up-to-date on events happening around the globe and find your next music festival destination.</p>
+                </div>
+        </header>
+        <!-- Start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Your Source for Festival News</a></li>
+                <li><a href="usevents.html">US Events</a></li>
+                <li><a href="global.html"> Global Events</a></li>
+                <li class="active"><a href="contact.html"> Contact Us!</a></li>
+            </ul>
+        </nav>
+        <!-- Start of the page content -->
+        <main>
+        <h1>We would love to hear from you!</h1>
+        <form method="get" class="myForm" action="thanks.html">
+       
+        <fieldset>
+        <legend>Let's Connect! How Can We Reach You Back?</legend>
+        <Label>First Name*<input type="text" name="fname" required></Label>
+        <Label>Last Name*<input type="text" name="lname" required></Label>
+        <Label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></Label>
+        <Label>Email Address*<input type="email" name="email" required></Label>
+        <Label>Where Are You Located?<input type="text" name="location"></Label>
+        </fieldset>
+   
+        <fieldset>
+        <legend>How Did You Find Us? </legend>
+            <label><input type="radio" name="method" value="facebook">Facebook </label>
+            <label><input type="radio" name="method" value="instagram">Instagram </label> 
+            <label><input type="radio" name="method" value="tiktok">TikTok </label>
+            <label><input type="radio" name="method" value="other">Other </label>
+        </fieldset>    
+            
+        <fieldset>
+        <legend>What Would You Like to See More of On Our Page?</legend>
+            <label><input type="checkbox" name="festivals" value="chosen"> Festivals</label>
+            <label><input type="checkbox" name="fashion" value="chosen"> Fashion Inspo</label>
+            <label><input type="checkbox" name="safety" value="chosen"> Safety Tips </label>
+            <label><input type="checkbox" name="connections" value="chosen"> Making Connections</label>
+            <label><input type="checkbox" name="other" value="chosen"> Other(Leave a Comment Below!) </label>
+            
+            <label>Interested In Working With Us?
+            <select name="position">
+            <option value="none">Please Select Preferred Role</option>
+            <option value="morning">Affiliate Ambassador</option>
+            <option value="noon">Event Coordinator</option>
+            <option value="afternoon">Blog Writer</option>
+            <option value="evening">Public Relations Manager</option>
+            </select>
+            </label>     
+        </fieldset>    
+          
+            
+        <label>Additional Comments/Feedback?
+            <textarea name="comments"></textarea>
+            </label>
+            
+        
+        <input type="submit" value="Leave a Message!">
+        </form>
+
+            
+        </main>
+        <!-- Start of the page footer -->
+        <footer>
+        <p>&copy; 2024 &bull; FestiDesti &bull; <a href="mailto:10797742@uvu.edu">Email Us</a></p>
+        </footer>
+
+    </body>
+</html>
